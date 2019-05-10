@@ -1,0 +1,10 @@
+Linux_Findr
+-----------
+
+A word searching program. Looks for a user specified string within a file.
+
+To run the program via terminal with the following usage:
+
+    ./findr [FILE TO SEARCH THROUGH] [STRING TO SEARCH FOR]
+
+Note: Program will not search for strings that contain spaces

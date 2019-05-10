@@ -1,0 +1,12 @@
+Not all terminal support blinking, and dim too. Before i think there are only 16 colors support. But now I see 256 are.
+It's very good. But for 16 only you may design
+pseudo graphic interface, draw good windows and all graphical controls in text mode. Only you
+need(for russians) use DOS866 encodding set. It containe full set of pseudo graphic symbols, others no. There is set
+of libraries of pseudo graphic controls. And you may easily make TUI(text user interface) API like GUI. But
+library is Turbo Vision for DOS 16 only. But this libs in source code available. If you want you may rewrite them
+for Linux platform. And if use 256 colors you get more better design nearest to GUI. Many years I try
+to find redy solution but failed. So if you want to do that you need to all work by yourself. But result will
+best. This API take tens times less resources and quicker then
+gui. They don't require GUI regime at all... It will be best
+But API of all. There is only 1 restriction. You don't must draw pictures, graphics, videos
+and so on where you need pixel draw indeed. But there are little API like that. Most API don't need pixel draw at all.
